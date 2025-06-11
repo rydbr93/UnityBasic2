@@ -18,25 +18,25 @@ MonoBehaviour:
   - id: 10101
     name: "\uC18C\uD76C"
     title: "\uBC29\uC1A1\uBD80"
-    image: sohi_basic
+    image: sohi_basic,
     description: "\uBC24\uBE44 \uAE30\uBCF8 \uD45C\uC815"
   - id: 10102
     name: "\uC18C\uD76C"
     title: "\uBC29\uC1A1\uBD80"
-    image: sohi_smile
+    image: sohi_smile,
     description: "\uBC24\uBE44 \uC6C3\uB294 \uD45C\uC815"
   - id: 10103
     name: "\uC18C\uD76C"
     title: "\uBC29\uC1A1\uBD80"
-    image: sohi_confusion1
+    image: sohi_confusion1,
     description: "\uBC24\uBE44 \uB2F9\uD669 \uD45C\uC815"
   - id: 10201
     name: "\uC740\uD638"
     title: "\uBC29\uC1A1\uBD80"
-    image: ysd_p
+    image: ysd_p,
     description: "\uC740\uD638 \uAE30\uBCF8 \uD45C\uC815"
   - id: 10202
     name: "\uC740\uD638"
     title: "\uBC29\uC1A1\uBD80"
-    image: ysd_laugh
+    image: ysd_laugh,
     description: "\uC740\uD638 \uC6C3\uB294 \uD45C\uC815"
