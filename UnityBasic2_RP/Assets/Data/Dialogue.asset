@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6513dd1693b28de48a873e9dada9f590, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Data.xlsx
+  WorksheetName: Dialogue
+  dataArray:
+  - id: 1
+    bgimage: background1
+    character: 10101
+    position: 0
+    dialogue: "\uC548\uB155 \uB09C \uC18C\uD76C\uC57C"
+  - id: 2
+    bgimage: background1
+    character: 10102
+    position: 1
+    dialogue: "\uC544\uB2C8 \uC0AC\uC2E4 \uBC24\uBE44\uB784\uAE4C"
+  - id: 3
+    bgimage: background1
+    character: 10101
+    position: 1
+    dialogue: "\uB098\uB3C4 \uB0B4 \uC774\uB984\uC774 \uBB54\uC9C0 \uBAA8\uB974\uACA0\uB124"
+  - id: 4
+    bgimage: boyroom
+    character: 10201
+    position: 2
+    dialogue: "\uB098\uB294 \uC740\uD638"
+  - id: 5
+    bgimage: boyroom
+    character: 10101
+    position: 3
+    dialogue: "\uC2E4\uBC84\uD638, \uB0A0\uC544\uAC00\uB294 \uBAA8\uC591~ Fly~"

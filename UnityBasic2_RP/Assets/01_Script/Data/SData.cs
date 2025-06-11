@@ -12,4 +12,32 @@ public class SData : SingletonBehabiour<SData>
         return null;
     }
 
+    [SerializeField] Dialogue dialogueDatas; // DataTable의 데이터 탭 Name
+    public static DialogueData[] DialogueData { get { return Instance.dialogueDatas.dataArray; } } // 데이터 탭 Name + Data
+    public static DialogueData GetDialogueData(int _id)
+    {
+        for (int i = 0; i < DialogueData.Length; i++)
+        {
+            if (DialogueData[i].ID == _id)
+            {
+                return DialogueData[i];
+            }
+        }
+        return null;
+    }
+
+    [SerializeField] Character characterDatas; // DataTable의 데이터 탭 Name
+    public static CharacterData[] CharacterData { get { return Instance.characterDatas.dataArray; } } // 데이터 탭 Name + Data
+    public static CharacterData GetCharacterData(int _id)
+    {
+        for (int i = 0; i < CharacterData.Length; i++) //반복문으로 엑셀 시트를 확인하면서 특정 조건의 _id를 찾으면 값 반환
+        {
+            if (CharacterData[i].ID == _id)
+            {
+                return CharacterData[i];
+            }
+        }
+        return null;
+    }
+
 }

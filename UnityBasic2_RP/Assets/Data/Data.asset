@@ -16,17 +16,31 @@ MonoBehaviour:
   scriptFilePath: Data/Runtime
   editorScriptFilePath: Data/Editor
   sheetName: Data.xlsx
-  workSheetName: Test
+  workSheetName: Dialogue
   columnHeaderList:
   - type: 3
-    name: ID_I
+    name: ID
     isEnable: 0
     isArray: 0
   - type: 1
-    name: Name_S
+    name: BGImage
+    isEnable: 0
+    isArray: 0
+  - type: 3
+    name: Character
+    isEnable: 0
+    isArray: 1
+  - type: 3
+    name: Position
+    isEnable: 0
+    isArray: 1
+  - type: 1
+    name: Dialogue
     isEnable: 0
     isArray: 0
   excelFilePath: Assets/Data/Data.xlsx
   SheetNames:
   - Test
-  currentSelectedSheet: 0
+  - Dialogue
+  - Character
+  currentSelectedSheet: 1
